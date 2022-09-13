@@ -1,0 +1,102 @@
+.menu{
+    width: 100%;
+    height: 100px;
+    background-color: gray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu .logo a img{
+    width: 80px;
+}
+.enlaces ul,
+.iconos ul{
+    list-style: none;
+    display: flex;
+}
+.enlaces ul li,
+.iconos ul li{
+
+    margin-right: 10px;
+}
+.enlaces ul li a,
+.iconos ul li i,
+.iconos ul li svg{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    
+}
+.enlaces ul li a:hover{
+     border-bottom: 2px solid red;
+}
+.iconos ul li i,
+.iconos ul li svg
+.iconos ul li i,
+.iconos ul li svg{
+    background-color: red;
+    padding: 5px 6px;
+    border-radius:10px;
+}
+.iconos ul li i:hover,
+.iconos ul li svg:hover{ 
+    background-color: white;
+    color: red;       
+}
+/*imagen principal*/
+.principal{
+    background-image: url("../imagenes/principal.jpg");
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: top;
+    display: flex;
+    justify-content: center;
+} 
+.principal .con-texto h1{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+.principal .con-texto p{
+    font-size: 50px;
+    
+}
+.principal .con-texto a{
+    background-color: red;
+    color:white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.principal .con-texto a:hover{
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+}
+.principal .con-texto{
+    width: 300px;
+    text-align: center;
+}
+.descuento{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+
+}
+.descuento img{
+    width: 300px;
+    height: auto;
+    margin: 0 10px;
+}
+.titulo-des h2{
+    font-size:50px ;
+    color:red
+
+}
